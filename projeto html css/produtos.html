@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produtos - E-commerce</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f0f0f0;
+      }
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+      .produtos-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 20px;
+      }
+      .produto {
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+      }
+      .produto img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 4px;
+      }
+      .produto h2 {
+        margin: 10px 0;
+        font-size: 1.2rem;
+      }
+      .produto p {
+        color: #666;
+        margin: 5px 0;
+      }
+      .produto .preco {
+        font-weight: bold;
+        color: #4caf50;
+        font-size: 1.2rem;
+        margin: 10px 0;
+      }
+      .produto .avaliacao {
+        color: #ffd700;
+      }
+      button {
+        padding: 0.5rem 1rem;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1rem;
+        margin-top: 10px;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+      .finalizar-compra {
+        text-align: center;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Produtos</h1>
+    <div class="produtos-container">
+      <div class="produto">
+        <img src="imagens/P1.jpg" alt="Produto 1" />
+        <h2>Samsung S24 Ultra</h2>
+        <p>Modelo: S24 Ultra 512 GB, Marca: Samsung, Cor: Chumbo</p>
+        <p class="preco">R$ 2.999,99</p>
+        <p class="avaliacao">★★★★☆</p>
+        <button>Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="imagens/P2.jpeg" alt="Produto 2" />
+        <h2>MacBook Air</h2>
+        <p>Modelo: MacBook Air M3, Marca: Apple, Cor: Prata</p>
+        <p class="preco">R$ 25.299,99</p>
+        <p class="avaliacao">★★★★★</p>
+        <button>Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="imagens/P3.jpg" alt="Produto 3" />
+        <h2>Iphone 16</h2>
+        <p>Modelo: Iphone 16 Pro Max, Marca: Apple, Cor: Dourado</p>
+        <p class="preco">R$ 20.299,99</p>
+        <p class="avaliacao">★★★★★</p>
+        <button>Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="imagens/P4.jpg" alt="Produto 4" />
+        <h2>Nokia 5125</h2>
+        <p>Modelo: Nokia 5125, Marca: Nokia, Cor: Prata</p>
+        <p class="preco">R$ 1.000,00</p>
+        <p class="avaliacao">★★★★★</p>
+        <button>Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="imagens/P5.jpg" alt="Produto 5" />
+        <h2>SSD NV2</h2>
+        <p>Modelo: SSD NV2 500GB, Marca: Kingston, Cor: Preto</p>
+        <p class="preco">R$ 1.299,99</p>
+        <p class="avaliacao">★★★★★</p>
+        <button>Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="imagens/P6.JPEG" alt="Produto 6" />
+        <h2>Pendrive</h2>
+        <p>Modelo: Pendrive 1 TB, Marca: Sandisk, Cor: Preto</p>
+        <p class="preco">R$ 299,99</p>
+        <p class="avaliacao">★★★★★</p>
+        <button>Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="imagens/P7.jpeg" alt="Produto 7" />
+        <h2>Cadeira Gamer</h2>
+        <p>Modelo: Cadeira Gamer, Marca: Kabum, Cor: Preto</p>
+        <p class="preco">R$ 1.299,99</p>
+        <p class="avaliacao">★★★★★</p>
+        <button>Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="imagens/P8.jpeg" alt="Produto 8" />
+        <h2>Mouse Gamer</h2>
+        <p>Modelo: Mouse Gamer, Marca: Reddragon, Cor: Chumbo</p>
+        <p class="preco">R$ 299,99</p>
+        <p class="avaliacao">★★★★★</p>
+        <button>Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="imagens/P9.jpeg" alt="Produto 9" />
+        <h2>Teclado Gamer</h2>
+        <p>Modelo: Teclado Gamer, Marca: Reddragon, Cor: Preto</p>
+        <p class="preco">R$ 499,99</p>
+        <p class="avaliacao">★★★★★</p>
+        <button>Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="imagens/P10.jpeg" alt="Produto 10" />
+        <h2>Monitor Gamer</h2>
+        <p>Modelo: Monitor Gamer Asus Rog 49", Marca: Asus, Cor: Pret0</p>
+        <p class="preco">R$ 5.299,99</p>
+        <p class="avaliacao">★★★★★</p>
+        <button>Adicionar ao Carrinho</button>
+      </div>
+      <!-- Adicione mais produtos aqui, até completar 10 -->
+    </div>
+    <div class="finalizar-compra">
+      <a href="pagamento.html"><button>Finalizar Compra</button></a>
+    </div>
+  </body>
+</html>
